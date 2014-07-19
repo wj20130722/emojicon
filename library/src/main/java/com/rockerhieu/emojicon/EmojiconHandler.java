@@ -1489,6 +1489,7 @@ public final class EmojiconHandler {
             }
 
             if (icon > 0) {
+            	
                 text.setSpan(new EmojiconSpan(context, icon, emojiSize), i, i + skip, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
             }
         }
